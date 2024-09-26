@@ -1,0 +1,123 @@
+<!-- basic structure [tell to the browser, which version of html you are using] -->
+<!DOCTYPE html>
+
+<!-- Basics-->
+<!-- html is root element(everything comes under html)-->
+<!-- <html>
+    <head> -->
+<!-- head contains meta info-->
+<!-- <meta charset="UTF-8">   charset is like what all you included how it will be interpreted in browser (UTF[is one of type of charset] is format) UTF-UNICODE TRANSFORMATION FORMAT-->
+<!-- </body> -->
+<!-- <title>HTML</title>
+         <body> -->
+<!-- (body)what displays on the website-->
+<!-- <h1>Dheeraj - Almabetter</h1>
+             <h2></h2>
+             <h3>element,content</h3>
+             <h4></h4>
+             <h5></h5>
+             <h6>tag - giving instruction to the browser,</h6> -->
+<!--paragraph-->
+<!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam repellat labore nesciunt maiores esse eum et, reprehenderit voluptates est quis.(lorem20)</p> -->
+<!--
+             <style>
+                <script>
+                    -->
+<!--media element
+            src=source
+            alt=alternate
+            -->
+<!-- <img src="" alt="">
+    </head>
+</html>  -->
+
+<!-- for dummy content lorem20 -->
+
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <nav>
+
+    </nav>
+    <main>
+        <!--lists-->
+        <section>
+            <h2>Technologies</h2>
+            <!-- ul -> unordered list-->
+            <!-- li->list item 
+                 by default list marker is disc :
+                 to change give type ="disc" | "circle" | "Square" | "none" 
+                 -->
+            <ul type="none">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+            </ul>
+            <!-- ol - ordered lists
+                 type = "a",|"A", | "i,I(roman)"| "1" that respective will start
+                 start is attribute to define from which number to start
+                 reversed is used to reverse the order
+                 -->
+            <ol type="I" start="2" reversed>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ol>
+
+            <!--nesting list
+                  nested lists always added in <li>
+                  -->
+            <ul>
+                <li>We group related data</li>
+                <li>Three types of list:
+                    <ol>
+                        <li>unordered list</li>
+                        <li>ordered list</li>
+                        <li>Description list</li>
+                    </ol>
+                </li>
+            </ul>
+
+            <!--
+            description list - dl
+            dt -> definition term
+            dd -> definition 
+            -->
+            <dl>
+                <dt>HTML</dt>
+                <dd>HYPERTEXT MARKUP LANGUAGE</dd>
+                <dt>CSS</dt>
+                <dd>stylee</dd>
+            </dl>
+        </section>
+        <section>
+            <button type="reset">Login</button>
+            <button type="submit">Add to cart</button>
+            <button type="submit" disabled>Login2</button>
+
+            <section>
+                <!--
+                dropdown
+                -->
+                <select>
+                    <option value="india">India</option>
+                    <option value="Australia">Australia</option>
+                </select>
+            </section>
+        </section>
+        <!--
+        Block elements:- start from a new line and takes 100% width e.g: p, heading tags, list, div,semantic
+        Inline elements:- which stays in the same line e.g: span, img, 
+        -->
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>

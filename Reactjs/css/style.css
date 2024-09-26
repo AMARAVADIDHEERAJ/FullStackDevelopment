@@ -1,0 +1,21 @@
+/*external style sheet*/
+
+/*
+selector means elements we are going to select
+selector - h1                   value
+h1 { color: black; font-size:20px}
+color - property, {data in brackets is declaration}
+*/
+
+div {
+    height: 1200px;
+    background-color: rgb(211, 159, 91);
+
+    background-image: url("../images/20240816_182914.jpg");
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-size: cover;
+}
